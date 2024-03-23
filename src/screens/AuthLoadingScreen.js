@@ -1,6 +1,5 @@
 import React from 'react'
 import { ActivityIndicator } from 'react-native'
-// import firebase from 'firebase/app'
 import { StyleSheet, View } from 'react-native';
 import Background from '../components/Background'
 import { theme } from '../core/theme'
@@ -35,7 +34,8 @@ export default function AuthLoadingScreen({ navigation }) {
         onAnimationFinish={() => {
           // Show the status bar when the animation finishes
           checkAuth();
-        }} */}
+        }}
+        /> */}
     </View>
   )
 }

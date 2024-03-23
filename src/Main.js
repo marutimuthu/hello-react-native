@@ -56,7 +56,7 @@ export default function Main() {
 function DrawerNavigator() {
   return (
     <Drawer.Navigator
-      useLegacyImplementation={true}
+      // useLegacyImplementation={true}
       drawerContent={props => <DrawerContent {...props}/>}
     >
       <Drawer.Screen name="Home" component={BottomNavigation} />
